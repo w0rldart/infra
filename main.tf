@@ -1,7 +1,6 @@
 terraform {
   backend "remote" {
     organization = "w0rldart"
-    token        = ""
 
     workspaces {
       name = "infra"
